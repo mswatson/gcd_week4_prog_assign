@@ -793,5 +793,6 @@ for (i in 1:numrows) {
  }
 } 
 
-write.csv(td, file="tidyDataset2.csv")
+write.table(td, file="tidyDataset2.txt", row.names = FALSE)
+
 
